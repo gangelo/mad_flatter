@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require_relative "mad_flatter/version"
+require 'active_support'
+require_relative 'mad_flatter/version'
 
-module MadFlatter
-  class Error < StandardError; end
-  # Your code goes here...
+Dir[File.join('.', 'lib/mad_flatter/**/*.rb')].each do |f|
+  require f
 end
