@@ -1,5 +1,6 @@
-## [Unreleased]
+### 1.0.1-beta
+* changes
+  * Fix bug requiring support codez in lib/mad_flatter.rb
 
-## [0.1.0] - 2022-08-15
-
-- Initial release
+### 1.0.0-alpha
+* Initial release
