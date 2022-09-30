@@ -12,17 +12,17 @@ module MadFlatter
     OPTIONS = [OPTION_METADATA, OPTION_NAMESPACE].freeze
 
     def validate_options!(options:)
-      raise ArgumentError, 'options is not a Hash' unless options.is_a? Hash
+      validate_options_type! options: options
 
-      validate_options_present! options: options
+      return if options.blank?
 
       validate_option_keys! options: options
       validate_option_metadata! metadata: options[:metadata]
       validate_option_namespace! namespace: options[:namespace]
     end
 
-    def validate_options_present!(options:)
-      raise ArgumentError, 'options is blank?' if options.blank?
+    def validate_options_type!(options:)
+      raise ArgumentError, "options (#{options.class}) is not a Hash" unless options.is_a? Hash
     end
 
     def validate_option_keys!(options:)
@@ -31,16 +31,16 @@ module MadFlatter
       return if invalid_options.blank?
 
       raise ArgumentError, 'One or more option keys were unrecognized. ' \
-        "#{OPTIONS} was expected but '#{invalid_options} was received."
+                           "#{OPTIONS} was expected but '#{invalid_options}' was received."
     end
 
     def validate_option_metadata!(metadata:)
       return if [TrueClass, FalseClass].include? metadata.class
 
       raise ArgumentError, "option :#{OPTION_METADATA} value is invalid. " \
-        'A TrueClass/FalseClass was expected ' \
-        "with the acceptable values #{OPTION_METADATA_VALUES} " \
-        "but '#{metadata}' (#{metadata.class}) was received."
+                           'A TrueClass/FalseClass was expected ' \
+                           "with the acceptable values #{OPTION_METADATA_VALUES} " \
+                           "but '#{metadata}' (#{metadata.class}) was received."
     end
 
     def validate_option_namespace!(namespace:)
@@ -48,9 +48,8 @@ module MadFlatter
       return if namespace.blank? || namespace.is_a?(Symbol)
 
       raise ArgumentError, "option :#{OPTION_NAMESPACE} value is invalid. " \
-        'A Symbol was expected ' \
-        "with the acceptable values #{OPTION_METADATA_VALUES} " \
-        "but '#{metadata}' (#{metadata.class}) was received."
+                           'A Symbol was expected ' \
+                           "but '#{namespace}' (#{namespace.class}) was received."
     end
   end
 end

@@ -11,13 +11,7 @@
 
 [![License](http://img.shields.io/badge/license-MIT-yellowgreen.svg)](#license)
 
-This is a work in process. No breaking changes are expected before v1.0.0.
-
-TODO: Add specs.
-TODO: Better documentation.
-
-mad_flatter is a Ruby gem that takes a Ruby `Hash` and flattens the Hash keys to
-create a new Hash with unique Hash keys; that is, embedded Hashes use their
+mad_flatter is a Ruby gem that takes a Ruby `Hash` and flattens the Hash keys to create a new Hash with unique Hash keys; that is, embedded Hashes use their
 respective keys as namespaces to create unique keys across the entire Hash.
 For example:
 

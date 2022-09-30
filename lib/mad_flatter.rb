@@ -3,7 +3,6 @@
 require 'active_support'
 require_relative 'mad_flatter/hash_informable'
 require_relative 'mad_flatter/hash_loadable'
-require_relative 'mad_flatter/hash_retrievable'
 require_relative 'mad_flatter/metadata_optionable'
 require_relative 'mad_flatter/namespace_optionable'
 require_relative 'mad_flatter/optionable'
