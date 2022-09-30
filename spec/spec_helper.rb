@@ -1,5 +1,14 @@
 # frozen_string_literal: true
 
+require 'pry-byebug'
+
+require 'simplecov'
+SimpleCov.start
+
+SimpleCov.start do
+  add_filter 'spec'
+end
+
 require "mad_flatter"
 
 RSpec.configure do |config|

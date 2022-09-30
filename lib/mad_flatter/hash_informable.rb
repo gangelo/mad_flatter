@@ -9,16 +9,16 @@ module MadFlatter
       hash.each do |key, value|
         if value.is_a? Hash
           load_hash_info(hash: value,
-                         namespace: namespace,
-                         dig: dig << key,
-                         hash_info: hash_info)
+            namespace: namespace,
+            dig: dig << key,
+            hash_info: hash_info)
           dig.pop
         else
           assign_hash_info(hash_info: hash_info,
-                           key: key,
-                           value: value,
-                           namespace: namespace,
-                           dig: dig)
+            key: key,
+            value: value,
+            namespace: namespace,
+            dig: dig)
         end
 
         next

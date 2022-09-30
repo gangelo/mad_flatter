@@ -12,6 +12,8 @@ module MadFlatter
     include Optionable
 
     def initialize(options: nil)
+      options ||= {}
+
       # Accept whatever options are sent, but make sure
       # we have defaults set up. #with_defaults
       # will merge options into OptionsDefaultable::DEFAULT_OPTIONS
@@ -20,6 +22,8 @@ module MadFlatter
     end
 
     def execute(hash:, options: nil)
+      options ||= {}
+
       # Merge options received into the default options passed through
       # the constructor. Options received here, will override any options
       # passed to the constructor, allowing us to retain defaut options
