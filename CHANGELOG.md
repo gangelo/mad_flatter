@@ -1,3 +1,8 @@
+### 2.1.0
+* Changes
+  * Limit ruby version to Gem::Requirement.new(">= 2.3.1", "< 4.0").
+  * Update ruby gems.
+
 ### 2.0.0
 * Changes
   * Add spec coverage.
