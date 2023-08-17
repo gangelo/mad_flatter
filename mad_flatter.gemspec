@@ -39,7 +39,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rubocop', '~> 1.31'
   spec.add_development_dependency 'rubocop-performance', '~> 1.14', '>= 1.14.3'
   spec.add_development_dependency 'rubocop-rspec', '~> 2.12', '>= 2.12.1'
-  spec.add_development_dependency 'simplecov', '~> 0.21.2'
+  spec.add_development_dependency 'simplecov', '~> 0.22.0'
 
   # For more information and examples about making a new gem, checkout our
   # guide at: https://bundler.io/guides/creating_gem.html

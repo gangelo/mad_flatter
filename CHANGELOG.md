@@ -4,6 +4,10 @@ Breaking hanges
 
 - Minimum Ruby version now is 3.0.1
 
+Changes
+
+- Update ruby gems.
+
 ### 2.1.0
 
 Changes
