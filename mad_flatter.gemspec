@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description = "mad_flatter gem"
   spec.homepage = "https://github.com/gangelo/mad_flatter"
   spec.license = "MIT"
-  spec.required_ruby_version = Gem::Requirement.new(">= 2.3.1", "< 4.0")
+  spec.required_ruby_version = Gem::Requirement.new(">= 3.0.1", "< 4.0")
 
   # spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 
@@ -33,7 +33,7 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency 'activesupport', '~> 7.0', '>= 7.0.3.1'
   spec.add_runtime_dependency 'immutable_struct_ex', '~> 1.0'
-  spec.add_development_dependency 'pry-byebug', '~> 3.9'
+  spec.add_development_dependency 'pry-byebug', '~> 3.10', '>= 3.10.1'
   spec.add_development_dependency 'reek', '~> 6.1', '>= 6.1.1'
   spec.add_development_dependency 'rspec', '>= 3.10'
   spec.add_development_dependency 'rubocop', '~> 1.31'
