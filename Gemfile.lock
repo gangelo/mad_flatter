@@ -8,7 +8,7 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (7.0.7)
+    activesupport (7.0.7.2)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
@@ -22,7 +22,7 @@ GEM
     docile (1.4.0)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
-    immutable_struct_ex (1.0.0)
+    immutable_struct_ex (1.0.1)
     json (2.6.3)
     kwalify (0.7.2)
     language_server-protocol (3.17.0.3)
@@ -59,7 +59,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.12.0)
     rspec-support (3.12.1)
-    rubocop (1.56.0)
+    rubocop (1.56.2)
       base64 (~> 0.1.1)
       json (~> 2.3)
       language_server-protocol (>= 3.17.0)
@@ -98,6 +98,7 @@ GEM
 PLATFORMS
   x86_64-darwin-17
   x86_64-darwin-19
+  x86_64-darwin-21
   x86_64-linux
 
 DEPENDENCIES
@@ -111,4 +112,4 @@ DEPENDENCIES
   simplecov (~> 0.22.0)
 
 BUNDLED WITH
-   2.3.20
+   2.3.22
