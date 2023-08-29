@@ -1,6 +1,12 @@
+### 3.0.1 [2023-08-29]
+
+Changes
+
+- Update ruby gems.
+
 ### 3.0.0 [2023-08-17]
 
-Breaking hanges
+Breaking changes
 
 - Minimum Ruby version now is 3.0.1
 

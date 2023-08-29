@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    mad_flatter (3.0.0)
+    mad_flatter (3.0.1)
       activesupport (~> 7.0, >= 7.0.3.1)
       immutable_struct_ex (~> 1.0)
 
