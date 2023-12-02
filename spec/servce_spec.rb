@@ -1,17 +1,5 @@
 # frozen_string_literal: true
 
-RSpec.shared_examples 'no error is raised' do
-  it 'does not raise an error' do
-    expect { subject }.to_not raise_error
-  end
-end
-
-RSpec.shared_examples 'an error is raised' do
-  it 'raises an error' do
-    expect { subject }.to raise_error expected_error
-  end
-end
-
 RSpec.describe MadFlatter::Service do
   subject(:service) do
     described_class.new(options: options)

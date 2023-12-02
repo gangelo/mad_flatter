@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'active_support'
+require 'active_support/core_ext/object/blank'
 require_relative 'mad_flatter/hash_informable'
 require_relative 'mad_flatter/hash_loadable'
 require_relative 'mad_flatter/metadata_optionable'
