@@ -1,3 +1,10 @@
+### 3.0.4 [2023-12-02]
+
+Changes
+
+- Update ruby gems.
+- DRY up spec shared examples.
+
 ### 3.0.3 [2023-12-02]
 
 Changes
