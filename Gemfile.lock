@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    mad_flatter (3.0.2)
+    mad_flatter (3.0.3)
       activesupport (~> 7.0.8)
       immutable_struct_ex (~> 1.0)
 
@@ -21,8 +21,8 @@ GEM
     docile (1.4.0)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
-    immutable_struct_ex (1.0.2)
-    json (2.6.3)
+    immutable_struct_ex (1.0.4)
+    json (2.7.0)
     kwalify (0.7.2)
     language_server-protocol (3.17.0.3)
     method_source (1.0.0)
@@ -37,7 +37,7 @@ GEM
     pry-byebug (3.10.1)
       byebug (~> 11.0)
       pry (>= 0.13, < 0.15)
-    racc (1.7.2)
+    racc (1.7.3)
     rainbow (3.1.1)
     reek (6.1.4)
       kwalify (~> 0.7.0)
@@ -58,7 +58,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.12.0)
     rspec-support (3.12.1)
-    rubocop (1.57.2)
+    rubocop (1.58.0)
       json (~> 2.3)
       language_server-protocol (>= 3.17.0)
       parallel (~> 1.10)
@@ -66,7 +66,7 @@ GEM
       rainbow (>= 2.2.2, < 4.0)
       regexp_parser (>= 1.8, < 3.0)
       rexml (>= 3.2.5, < 4.0)
-      rubocop-ast (>= 1.28.1, < 2.0)
+      rubocop-ast (>= 1.30.0, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 3.0)
     rubocop-ast (1.30.0)
