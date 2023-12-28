@@ -1,3 +1,14 @@
+### 3.0.5 [2023-12-27]
+
+Enhancements
+
+- Add github actions for testing and rubocop
+- Add ability to run rake tasks.
+
+Changes
+
+- Update ruby gems.
+
 ### 3.0.4 [2023-12-02]
 
 Changes

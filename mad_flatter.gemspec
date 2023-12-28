@@ -33,6 +33,7 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency 'activesupport', '>= 7.0.8', '< 7.2.0'
   spec.add_runtime_dependency 'immutable_struct_ex', '>= 1.0', '< 2.0'
+  spec.add_development_dependency 'bundler', '~> 2.5', '>= 2.5.3'
   spec.add_development_dependency 'pry-byebug', '~> 3.10', '>= 3.10.1'
   spec.add_development_dependency 'reek', '~> 6.1', '>= 6.1.1'
   spec.add_development_dependency 'rspec', '>= 3.12', '< 4.0'
@@ -40,6 +41,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rubocop-performance', '~> 1.14', '>= 1.14.3'
   spec.add_development_dependency 'rubocop-rspec', '~> 2.12', '>= 2.12.1'
   spec.add_development_dependency 'simplecov', '~> 0.22.0'
+  spec.add_development_dependency 'rake', '~> 13.1'
 
   # For more information and examples about making a new gem, checkout our
   # guide at: https://bundler.io/guides/creating_gem.html
