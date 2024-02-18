@@ -1,3 +1,9 @@
+### 3.0.7 [2024-02-18]
+
+Changes
+
+- Update ruby gems.
+
 ### 3.0.6 [2024-01-18]
 
 Changes

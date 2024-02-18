@@ -33,16 +33,37 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency 'activesupport', '>= 7.0.8', '< 7.2.0'
   spec.add_runtime_dependency 'immutable_struct_ex', '>= 1.0', '< 2.0'
-  spec.add_development_dependency 'bundler', '~> 2.5', '>= 2.5.3'
-  spec.add_development_dependency 'pry-byebug', '~> 3.10', '>= 3.10.1'
-  spec.add_development_dependency 'reek', '~> 6.1', '>= 6.1.1'
-  spec.add_development_dependency 'rspec', '>= 3.12', '< 4.0'
-  spec.add_development_dependency 'rubocop', '>= 1.31', '< 2.0'
-  spec.add_development_dependency 'rubocop-performance', '~> 1.14', '>= 1.14.3'
-  spec.add_development_dependency 'rubocop-rspec', '~> 2.12', '>= 2.12.1'
-  spec.add_development_dependency 'simplecov', '~> 0.22.0'
-  spec.add_development_dependency 'rake', '~> 13.1'
 
   # For more information and examples about making a new gem, checkout our
   # guide at: https://bundler.io/guides/creating_gem.html
+
+  spec.post_install_message = <<~POST_INSTALL
+    Thank you for installing mad_flatter.
+
+    View the mad_flatter README.md here: https://github.com/gangelo/mad_flatter
+    View the mad_flatter CHANGELOG.md: https://github.com/gangelo/mad_flatter/blob/main/CHANGELOG.md
+
+                *
+               ***
+             *******
+            *********
+     ***********************
+        *****************
+          *************
+         ******* *******
+        *****       *****
+       ***             ***
+      **                 **
+
+    Using mad_flatter? mad_flatter is made available free of charge. Please consider giving mad_flatter a STAR on GitHub as well as sharing mad_flatter with your fellow developers on social media.
+
+    Knowing that mad_flatter is being used and appreciated is a great motivator to continue developing and improving mad_flatter.
+
+    >>> Star it on github: https://github.com/gangelo/mad_flatter
+    >>> Share on social media: https://rubygems.org/gems/mad_flatter
+
+    Thank you!
+
+    <3 Gene
+  POST_INSTALL
 end
