@@ -6,7 +6,7 @@ source 'https://rubygems.org'
 gemspec
 
 gem 'bundler', '~> 2.5', '>= 2.5.3'
-gem 'rake', '~> 13.1'
+gem 'rake', '~> 13.2'
 
 group :development do
   gem 'reek', '~> 6.1', '>= 6.1.1'
