@@ -11,8 +11,8 @@ gem 'rake', '~> 13.1'
 group :development do
   gem 'reek', '~> 6.1', '>= 6.1.1'
   gem 'rubocop', '>= 1.31', '< 2.0'
-  gem 'rubocop-performance', '~> 1.14', '>= 1.14.3'
-  gem 'rubocop-rspec', '~> 2.12', '>= 2.12.1'
+  gem 'rubocop-performance', '~> 1.21'
+  gem 'rubocop-rspec', '~> 2.30'
 end
 
 group :test do
