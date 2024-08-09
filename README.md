@@ -1,8 +1,8 @@
 # MadFlatter
 
-[![GitHub version](http://badge.fury.io/gh/gangelo%2Fmad_flatter.svg?refresh=3)](https://badge.fury.io/gh/gangelo%2Fmad_flatter)
+[![GitHub version](http://badge.fury.io/gh/gangelo%2Fmad_flatter.svg?refresh=4)](https://badge.fury.io/gh/gangelo%2Fmad_flatter)
 
-[![Gem Version](https://badge.fury.io/rb/mad_flatter.svg?refresh=3)](https://badge.fury.io/rb/mad_flatter)
+[![Gem Version](https://badge.fury.io/rb/mad_flatter.svg?refresh=4)](https://badge.fury.io/rb/mad_flatter)
 
 [![](http://ruby-gem-downloads-badge.herokuapp.com/mad_flatter?type=total)](http://www.rubydoc.info/gems/mad_flatter/)
 [![Documentation](http://img.shields.io/badge/docs-rdoc.info-blue.svg)](http://www.rubydoc.info/gems/mad_flatter/)
@@ -114,6 +114,7 @@ result.each_pair do |key, value|
   puts
 end
 ```
+
 Prints:
 
 ```
@@ -127,7 +128,6 @@ Original Hash key/value:
 New Hash key/value:
 	best_cake_options_cherries => "false"
 ```
-
 
 ## Installation
 
