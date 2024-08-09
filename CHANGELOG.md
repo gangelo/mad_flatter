@@ -1,3 +1,10 @@
+### 3.0.8 [2024-08-09]
+
+Changes
+
+- Update ruby gems.
+- Update rexml gem to patch CVE.
+
 ### 3.0.7 [2024-02-18]
 
 Changes
